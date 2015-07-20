@@ -1,0 +1,25 @@
+{
+  "name": "vladshish/cakephp-auth-helper",
+  "description": "",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "Auth", "Helper", "AuthHelper", "plugin"],
+  "homepage": "https://github.com/vladshish/cakephp-auth-helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vlad Shish",
+      "email": "vladshish89@gmail.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "composer/installers": "*"
+  },
+  "support": {
+    "email": "vladshish89@gmail.com",
+    "source": "https://github.com/vladshish/cakephp-auth-helper"
+  },
+  "extra": {
+    "installer-name": "AuthHelper"
+  }
+}
