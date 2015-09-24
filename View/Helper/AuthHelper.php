@@ -47,7 +47,7 @@ class AuthHelper extends AppHelper {
 	 */
 	public function user($key = null) {
 		if (!is_null($key)) {
-			return Hash::get($this->_userData, $key);
+			return Hash::get((array)$this->_userData, $key);
 		}
 
 		return $this->_userData;
